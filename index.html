@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nurit Spingarn — research in computer vision, machine learning, and generative models.">
+  <title>Nurit Spingarn | Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home">NS<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a><a href="#cv">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Computer Vision · Machine Learning · Generative Models</p>
+        <h1>Hi, I'm <span>Nurit Spingarn.</span></h1>
+        <p class="hero-lede">I study how generative models understand, represent, and use information — with a focus on text-to-image generation and visual learning.</p>
+        <p class="affiliation">PhD Researcher · Technion – Israel Institute of Technology</p>
+        <div class="actions">
+          <a class="button button-dark" href="#publications">Explore my research <span>↗</span></a>
+          <a class="text-link" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links">
+          <!-- Replace # with your profile URLs -->
+          <a href="#" aria-label="Google Scholar">Google Scholar ↗</a>
+          <a href="#" aria-label="GitHub">GitHub ↗</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract generative image collage">
+        <div class="art-label">Research / 2026</div>
+        <div class="art-grid">
+          <div class="art-tile tile-a"><span>01</span><i></i></div>
+          <div class="art-tile tile-b"><span>02</span><i></i></div>
+          <div class="art-tile tile-c"><span>03</span><i></i></div>
+          <div class="art-tile tile-d"><span>04</span><i></i></div>
+        </div>
+        <div class="art-caption">Understanding the representations<br>behind generated images.</div>
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-kicker">01 / About</div>
+      <div class="intro-content">
+        <h2>Making sense of<br><em>generative intelligence.</em></h2>
+        <div class="intro-text">
+          <p>I am a PhD researcher at the Technion, advised by <strong>Prof. Tomer Michaeli</strong>. My research is in computer vision and machine learning, especially generative models, text-to-image systems, and understanding how neural networks encode and process information.</p>
+          <p>I am interested in identifying what information models actually need, how that information is represented, and how we can make generative systems more interpretable and controllable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="research section" id="research">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / Research</div><h2>Questions that drive my work.</h2></div>
+        <p>From understanding text conditioning to controlling image generation, I explore the mechanisms behind modern visual models.</p>
+      </div>
+      <div class="research-grid">
+        <article class="research-card research-featured">
+          <div class="research-visual visual-embeddings">
+            <div class="token-row"><span>a</span><span>white</span><span>box</span><span>on</span><span>a</span><span>black</span><span>box</span></div>
+            <div class="embedding-lines"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="visual-note">WORDS · ORDER · REPRESENTATIONS</div>
+          </div>
+          <div class="card-meta">01 — TEXT-TO-IMAGE</div>
+          <h3>What does an image model really need from text?</h3>
+          <p>Investigating the role of contextual information in text encoders, and how much of it image generators actually use.</p>
+          <a href="#publications" class="arrow-link">Related publication <span>↗</span></a>
+        </article>
+        <article class="research-card">
+          <div class="research-visual visual-steering">
+            <div class="steer-circle"></div><div class="steer-arrow">↗</div>
+            <div class="visual-note">LATENT SPACE · DIRECTIONS</div>
+          </div>
+          <div class="card-meta">02 — GENERATIVE MODELS</div>
+          <h3>Steerability without optimization</h3>
+          <p>Finding meaningful directions in generative models to enable intuitive, efficient control of image synthesis.</p>
+          <a href="#publications" class="arrow-link">Related publication <span>↗</span></a>
+        </article>
+        <article class="research-card">
+          <div class="research-visual visual-imitation">
+            <div class="pipeline"><span>Input</span><b>→</b><span>Model</span><b>→</b><span>Output</span></div>
+            <div class="visual-note">FUNCTIONALITY · IMITATION</div>
+          </div>
+          <div class="card-meta">03 — MODEL UNDERSTANDING</div>
+          <h3>Learning a model from very little</h3>
+          <p>Studying how to imitate image-to-image model functionality from limited observations.</p>
+          <a href="#publications" class="arrow-link">Related publication <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="publications section" id="publications">
+      <div class="section-heading">
+        <div><div class="section-kicker">03 / Publications</div><h2>Selected work.</h2></div>
+        <p>A selection of research on generative models, visual representations, and efficient learning.</p>
+      </div>
+      <div class="publication-list">
+        <article class="publication">
+          <div class="pub-year">2026</div>
+          <div class="pub-main">
+            <h3>Text-to-Image Models Need Less from Text Encoders Than You Think</h3>
+            <p class="authors"><strong>Nurit Spingarn</strong>, Noa Cohen, Tamar Rott Shaham, Tomer Michaeli</p>
+            <p class="venue">Preprint</p>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2606.03715">Paper ↗</a><a href="https://nsping13.github.io/contextless-TTI/">Project page ↗</a><a href="#" >Code ↗</a></div>
+          </div>
+          <div class="pub-mark">↗</div>
+        </article>
+        <article class="publication">
+          <div class="pub-year">2024</div>
+          <div class="pub-main">
+            <h3>Imitating the Functionality of Image-to-Image Models Using a Single Example</h3>
+            <p class="authors"><strong>Nurit Spingarn</strong> et al.</p>
+            <p class="venue">Preprint</p>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2406.00828">Paper ↗</a></div>
+          </div>
+          <div class="pub-mark">↗</div>
+        </article>
+        <article class="publication">
+          <div class="pub-year">2021</div>
+          <div class="pub-main">
+            <h3>GAN Steerability Without Optimization</h3>
+            <p class="authors">Nurit Spingarn et al.</p>
+            <p class="venue">ICLR 2021</p>
+            <div class="pub-links"><a href="#" >Paper ↗</a><a href="#">Project page ↗</a></div>
+          </div>
+          <div class="pub-mark">↗</div>
+        </article>
+        <article class="publication">
+          <div class="pub-year">2022</div>
+          <div class="pub-main">
+            <h3>Power Awareness in Low Precision Neural Networks</h3>
+            <p class="authors">Nurit Spingarn et al.</p>
+            <p class="venue">Publication details to be added</p>
+            <div class="pub-links"><a href="#">Paper ↗</a></div>
+          </div>
+          <div class="pub-mark">↗</div>
+        </article>
+      </div>
+      <p class="small-note">Publication metadata and author lists are starter entries. Please verify and complete before publishing.</p>
+    </section>
+
+    <section class="teaching section" id="teaching">
+      <div class="section-kicker">04 / Teaching</div>
+      <div class="teaching-content">
+        <h2>Teaching &<br><em>mentoring.</em></h2>
+        <div>
+          <article class="teaching-item">
+            <p class="teaching-date">Spring 2026</p>
+            <h3>Statistical Methods in Image Processing</h3>
+            <p>Teaching Assistant · Technion – Israel Institute of Technology</p>
+            <p class="muted">Course 048954 · Lecturer: Prof. Tomer Michaeli</p>
+          </article>
+          <p class="teaching-placeholder">Add previous teaching, mentoring, invited talks, and service here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv section" id="cv">
+      <div class="section-kicker">05 / Curriculum Vitae</div>
+      <div class="cv-content">
+        <div><h2>A little more<br><em>about my path.</em></h2><p>For a full overview of my academic background, experience, and publications, see my CV.</p></div>
+        <a class="button button-outline" href="assets/nurit-spingarn-cv.pdf">Download CV <span>↓</span></a>
+      </div>
+      <p class="small-note">Add your CV PDF to <code>assets/nurit-spingarn-cv.pdf</code>.</p>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-kicker">06 / Contact</div>
+      <div class="contact-content">
+        <h2>Let's talk<br><em>research.</em></h2>
+        <div><p>Interested in generative models, visual learning, or potential collaborations?</p><a class="email-link" href="mailto:YOUR_EMAIL@technion.ac.il">YOUR_EMAIL@technion.ac.il ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="wordmark" href="#home">NS<span>.</span></a><p>© <span id="year"></span> Nurit Spingarn</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
